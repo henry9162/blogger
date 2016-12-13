@@ -12,7 +12,8 @@
         "unisharp/laravel-filemanager": "^1.6",
         "tillkruss/laravel-phpredis": "^1.1",
         "predis/predis": "^1.1",
-        "tshafer/laravel-social-share": "^1.0"
+        "tshafer/laravel-social-share": "^1.0",
+        "filp/whoops": "^2.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

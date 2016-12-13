@@ -1,5 +1,4 @@
-body
-{
+body{
 	font-family:Lora,'Times New Roman',serif;
 	font-size:15px;
 	-webkit-tap-highlight-color:#0085A1;
@@ -7,50 +6,42 @@ body
 	background-size:cover;
 }
 
-h1,h2,h3,h4,h5,h6
-{
+h1,h2,h3,h4,h5,h6{
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-weight:800;
 }
 
-img
-{
+img{
 	border-radius: 3px;
 }
 
-p
-{
+p{
 	line-height:1.5;
 	margin:0px 0;
 	font-size: 17px;
 }
 
-p a
-{
+p a{
 	text-decoration:none;
 }
 
-a:focus,a:hover
-{
+a:focus,a:hover{
 	color:#0085A1
 }
 
-.header
-{
+.header{
 	height:300px;
 	background: url('../images/mountains.jpg') no-repeat;
 	background-size:cover;
 	color:#fff;
 }
 
-.header h1, p, .search
-{
+.header h1, p, .search{
 	position: relative;
 	top:30%;
 }
 
-.header > img
-{
+.header > img{
 	height: 80px;
 	border-radius: 50%;
 	position: absolute;
@@ -58,15 +49,13 @@ a:focus,a:hover
 	right: 25%;
 }
 
-.header > .search
-{
+.header > .search{
 	margin-top: 30px;
 }
 
 /**** Header Animations ****/
 
-#animate-header
-{
+#animate-header{
 	position:relative;
 	-webkit-animation: headerMove 6s;
 	-moz-animation: headerMove 6s;
@@ -76,26 +65,22 @@ a:focus,a:hover
 	animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes headerMove
-{
+@-webkit-keyframes headerMove{
 	from {top: 0px;}
 	to {bottom: 300px;}
 }
 
-@-moz-keyframes headerMove
-{
+@-moz-keyframes headerMove{
 	from {top: 0px;}
 	to {bottom: 300px;}
 }
 
-@keyframes headerMove
-{
+@keyframes headerMove{
 	from {top: 0px;}
 	to {bottom: 300px;}
 }
 
-#animate-image
-{
+#animate-image{
 	position:relative;
 	-webkit-animation: imageMove 5s infinite;
 	-moz-animation: imageMove 5s infinite;
@@ -105,8 +90,7 @@ a:focus,a:hover
 	animation-delay: 1s;
 }
 
-@-moz-keyframes imageMove
-{
+@-moz-keyframes imageMove{
 	from 
 	{
 		position:absolute;
@@ -121,8 +105,7 @@ a:focus,a:hover
 	}
 }
 
-@-webkit-keyframes imageMove
-{
+@-webkit-keyframes imageMove{
 	from 
 	{
 		position:absolute;
@@ -137,8 +120,7 @@ a:focus,a:hover
 	}
 }
 
-@keyframes imageMove
-{
+@keyframes imageMove{
 	from 
 	{
 		position:absolute;
@@ -184,16 +166,13 @@ a:focus,a:hover
 	}
 
 
-	@keyframes imageMove
-	{
-		from 
-		{
+	@keyframes imageMove{
+		from {
 			position:absolute;
 			top:35%;
 			right: 0%;
 		}
-		to 
-		{
+		to {
 			position: absolute;
 			top:35%;
 			right: 10%;
@@ -202,9 +181,9 @@ a:focus,a:hover
 
 }
 
+
 @media only screen and (min-width: 1024px){
-	.header > .search
-	{
+	.header > .search{
 		margin-top: 100px;
 	}
 
@@ -214,16 +193,13 @@ a:focus,a:hover
 		top:30%; 
 	}
 
-	@keyframes imageMove
-	{
-		from 
-		{
+	@keyframes imageMove{
+		from {
 			position:absolute;
 			top:35%;
 			right: 0%;
 		}
-		to 
-		{
+		to {
 			position: absolute;
 			top:35%;
 			right: 18%;
@@ -233,8 +209,7 @@ a:focus,a:hover
 
 
 @media only screen and (min-width: 1206px){
-	.header > .search
-	{
+	.header > .search{
 		margin-top: 110px;
 	}
 
@@ -246,14 +221,12 @@ a:focus,a:hover
 
 	@keyframes imageMove
 	{
-		from 
-		{
+		from {
 			position:absolute;
 			top:35%;
 			right: 0%;
 		}
-		to 
-		{
+		to {
 			position: absolute;
 			top:35%;
 			right: 26%;
@@ -263,27 +236,22 @@ a:focus,a:hover
 
 
 @media only screen and (min-width: 1440px){
-	.header > .search
-	{
+	.header > .search{
 		margin-top: 110px;
 	}
-
 
 	.header h1, p, .search { 
 		position: relative;
 		top:30%; 
 	}
 
-	@keyframes imageMove
-	{
-		from 
-		{
+	@keyframes imageMove{
+		from {
 			position:absolute;
 			top:35%;
 			right: 0%;
 		}
-		to 
-		{
+		to {
 			position: absolute;
 			top:35%;
 			right: 26%;
@@ -291,35 +259,29 @@ a:focus,a:hover
 	}
 }
 
-ul li .inline
-{
+ul li .inline{
 	color:orange;
 	display: inline;
 }
 
 
-.posts
-{
+.posts{
 	background:#fff;
 }
 
-.articles
-{
+.articles{
 	padding-left: 40px;
 }
 
-.row > .articles > .search-head
-{
+.row > .articles > .search-head{
 	margin-top: 50px;
 }
 
-h3 .query
-{
+h3 .query{
 	color:brown;
 }
 
- .row .articles h1
-{
+ .row .articles h1{
 	margin-top: 100px;
 	margin-bottom: 200px;
 }
@@ -351,38 +313,33 @@ h3 .query
 }
 
 /****** Navigation ******/
-.navbar
-{
+.navbar{
 	background: url('../images/mountains.jpg') no-repeat;
 	background-size: cover;
 	background-position: bottom;
 	margin-bottom: 0px;
 }
 
-.navbar-nav li a
-{
+.navbar-nav li a{
 	color:grey;
 	margin-left: 20px;
 	margin-right: 20px;
 	outline:none;
 }
 
-.navbar-nav > .active
-{
+.navbar-nav > .active{
 	color:#fff;
 	background: url('../images/mountains.jpg') no-repeat;
 	background-size: cover;
 	background-position: bottom;
 }
 
-.navbar-nav > .active a
-{
+.navbar-nav > .active a{
 	color: #fff;
 }
 
 .navbar-nav li a:hover,
-.navbar-nav li a:focus
-{
+.navbar-nav li a:focus{
 	color:#fff;
 	background: url('../images/mountains.jpg') no-repeat;
 	background-size: cover;
@@ -410,14 +367,12 @@ h3 .query
 	opacity: 0.7;
 }
 
-.post-title 
-{
+.post-title {
 	padding:0px;
 	margin:0px;
 }
 
-.post-title > h3 a
-{
+.post-title > h3 a{
 	margin-top: 0px;
 	padding-top: 0px;
 	color: 	#AE3F3F;
@@ -425,63 +380,54 @@ h3 .query
 
 /*#8B4513*/
 
-.post-title > p a:hover
-{
+.post-title > p a:hover{
 	text-decoration: none;
 	color: brown;
 	opacity: 0.5;
 }
 
-.label-default a
-{
+.label-default a{
 	color:#fff;
 	text-decoration: none;
 }
 
 .label-default:hover,
-.label-default:focus
-{
+.label-default:focus{
 	background: brown;
 }
 
-.read-more
-{
+.read-more{
 	color:grey;
 }
 
-.sidebar-about
-{
+.sidebar-about{
 	margin-top:45px;
 	background: #CCCCCC;
 	border-radius: 7px;
 }
 
-.sidebar-module 
-{
+.sidebar-module {
 	padding: 15px;
 	margin: 0px 10px 10px;
 }
-.sidebar-module-inset 
-{
+
+.sidebar-module-inset {
 	padding: 15px;
 	background-color: #f5f5f5;
 	border-radius: 4px;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child 
-{
+.sidebar-module-inset ol:last-child {
 	margin-bottom: 5px;
 }
 
-.sidebar-module-inset > img
-{
+.sidebar-module-inset > img{
 	height: 100px;
 	border-radius: 50%;
 }
 
-.sidebar-module p .btn
-{
+.sidebar-module p .btn{
 	margin-top: 10px;
 }
 
@@ -524,57 +470,48 @@ h3 .query
 	padding:10px;
 }
 
-.categories
-{
+.categories{
 	background: url('../images/mountains.jpg') no-repeat;
 	background-size:cover;
 	color:#fff;
 }
 
-.categories ul
-{
+.categories ul{
 	padding: 10px;
 }
 
-.categories ul li
-{
+.categories ul li{
 	list-style: none;
 	margin-bottom: 10px;
 }
 
-.categories ul li a
-{
+.categories ul li a{
 	color: #f5f5f5;
 	text-decoration: none;
 }
 
-.categories ul li a:hover
-{
+.categories ul li a:hover{
 	color:#ffffff;
 	padding-left: 5px;
 }
 
 
-.tags
-{
+.tags{
 	background-color: 	#f5f5f5;
 }
 
 
-.tags > .col-md-12 > .tags-space
-{
+.tags > .col-md-12 > .tags-space{
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-.tags-space .label-default a
-{
+.tags-space .label-default a{
 	font-size: 13px; 
 	padding: 10px 5px;
 }
 
-.newsletter-body
-{
+.newsletter-body{
 	margin-top: 50px;
 	background-color: brown;
 }
@@ -596,148 +533,123 @@ h3 .query
 
 /****  Posts page  *****/
 
-.posts
-{
+.posts{
 	background: #fff;
 	margin-top: 20px;
 }
 
-.posts > .row .col-md-8
-{
+.posts > .row .col-md-8{
 	margin-top: 50px;
 }
 
 
-.posts > .row .col-md-2
-{
+.posts > .row .col-md-2{
 	margin-top: 70px;
 }
 
-table
-{
+table{
 	margin-top: 30px;
 }
 
-.post-table
-{
+.post-table{
 	margin-bottom: 70px;
 }
 
 
 /****  Category page  *****/
 
-.category
-{
+.category{
 	background: #fff;
 	margin-top: 0px;
 }
 
-.well
-{
+.well{
 	margin-top: 50px;
 }
 
-.category > .row > .col-md-6 h3
-{
+.category > .row > .col-md-6 h3{
 	margin-top: 70px;
 	margin-bottom: 0px;
 }
 
-.category > .row > .col-md-6 table
-{
+.category > .row > .col-md-6 table{
 	margin-top: 5px;
 	margin-bottom: 50px;
 }
 
-.well > .form-category button
-{
+.well > .form-category button{
 	margin-top: 15px;
 }
 
 
 /****  Tag page  *****/
 
-.tag
-{
+.tag{
 	background: #fff;
 	margin-top: 0px;
 }
 
-.well
-{
+.well{
 	margin-top: 50px;
 }
 
-.tag > .row > .col-md-6 h3
-{
+.tag > .row > .col-md-6 h3{
 	margin-top: 70px;
 	margin-bottom: 0px;
 }
 
-.tag > .row > .col-md-6 table
-{
+.tag > .row > .col-md-6 table{
 	margin-top: 5px;
 	margin-bottom: 50px;
 }
 
-.well > .form-tag button
-{
+.well > .form-tag button{
 	margin-top: 15px;
 }
 
 /***** form styles *****/
 
-.create-form
-{
+.create-form{
 	margin-bottom: 50px;
 }
 
-.edit-form
-{
+.edit-form{
 	margin-bottom: 70px;
 	margin-left: 30px;
 }
 
-.btn-spacing
-{
+.btn-spacing{
 	margin-top: 10px;
 }
 
-.tag-table
-{
+.tag-table{
 	margin-bottom: 80px;
 }
 
-.tag-head h1
-{
+.tag-head h1{
 	margin-bottom: 0px;
 }
 
-.single-blog
-{
+.single-blog{
 	margin-bottom: 100px;
 	margin-top: 50px;
 }
 
-.single-blog > h3 .single-tag
-{
+.single-blog > h3 .single-tag{
 	color:orange;
 }
 
 /***   Backend styles  ******/
 
-.backend-heading
-{
+.backend-heading{
 	color:brown;
 }
 
-.media-heading
-{
+.media-heading{
 	color:brown;
 }
 
-.comment-post-name
-{
+.comment-post-name{
 	font-size: 13px;
 }
 
@@ -750,15 +662,12 @@ table
 	margin-top: 80px;
 }
 
-.foot-header > h3
-{
+.foot-header > h3{
 	color: #fff;
 	padding-top: 20px;
 }
 
-.social-icons-contain
-{
-
+.social-icons-contain{
 	background: ;
 }
 
@@ -795,14 +704,11 @@ ul.social-icons li a.instagram:hover {
 	background-position: -125px -42px;
 }
 
-
-.footer-bottom-cate 
-{
+.footer-bottom-cate {
   padding-right: 0px;
 }
 
-.footer-bottom-cate h6 
-{
+.footer-bottom-cate h6 {
     font-size: 1.3em;
     color: #fa03bb;
     margin: 0 0 1em;
@@ -835,8 +741,7 @@ ul.social-icons li a.instagram:hover {
 	padding-left: 5px;
 }
 
-.footer-bottom-cate.cate-bottom ul li i 
-{
+.footer-bottom-cate.cate-bottom ul li i {
     border: 1px solid #999;
     padding: .5em;
     border-radius: 100%;
@@ -871,5 +776,4 @@ span .footer-class a:hover{
 }
 .footer-bottom {
     padding: 4em 0;
-    
 }

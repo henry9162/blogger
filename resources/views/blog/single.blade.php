@@ -29,7 +29,7 @@
                              @if($post->tags->count() < 1)
                                 Tags: No tag.
                              @elseif($post->tags->count() > 0)
-                                Tags:
+                                Tagged in:<BR>
                                 @foreach($post->tags as $tag)
                                     <span class="label label-warning" id="labelTag"><a href="{{ route('tag.page', $tag->id) }}">{{ $tag->name }}</a></span> 
                                 @endforeach
@@ -40,7 +40,7 @@
 
                     <div class="row row-eq-height">
                         <div class="container">
-                            <h4>Related Posts</h4>
+                            <h4 style="color:grey;">You may also like..</h4>
                         </div>
 
                         @foreach($postss as $post)
