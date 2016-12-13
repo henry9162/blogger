@@ -1,0 +1,1 @@
+{{ $post->likes->count() }} {{ str_plural('like', $post->likes->count()) }}
