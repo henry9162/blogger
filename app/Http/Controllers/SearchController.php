@@ -12,6 +12,8 @@ use Blogger\Category;
 
 use Blogger\Tag;
 
+use  Blogger\Post;
+
 class SearchController extends Controller
 {
     public function getResults(Request $request)
@@ -26,10 +28,13 @@ class SearchController extends Controller
 
     	$tags = Tag::where(DB::raw("name"), 'LIKE', "%{$query}%")->get();
 
+        $title = Post::where(DB::raw("title"), 'LIKE', "%{$query}%")->get();
+
         $cats = Category::all();
         $tagss = Tag::all();
+        $posts = Post::all();
 
     	return view('search.results')->withCategories($categories)->withTags($tags)
-        ->withCats($cats)->withTagss($tagss);
+        ->withCats($cats)->withTagss($tagss)->withTitle($title)->withPosts($posts);
     }
 }
